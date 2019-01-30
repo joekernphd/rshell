@@ -1,0 +1,10 @@
+[../bin] || echo "This shall not print!"
+[../bin] && echo "This shall PRINT!"
+([-f ../bin] || echo "THMMM") && echo uhhh what
+[../src/main.cpp] || test -e ../src
+test -f test_test.sh
+[-d ../src/par.h] && [-f ../src/par.h]
+test -d ../bin
+[-e src]; test -e ../src; echo hello
+test -f makefile
+exit

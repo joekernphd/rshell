@@ -1,0 +1,1 @@
+[-d path/path] || (echo "This is going to exit!" && exit)

@@ -1,0 +1,8 @@
+(echo A && (echo B || echo C));  
+(echo A || echo B && (echo C && echo D))
+(echo A && echo B) || (echo D || echo C)
+(echo a && [../bin]) && ls
+(ls -j || (ech not || echo "This should print."))
+([-f ../src/main.cpp] && echo "Main.cpp found!" || (echo "Why not print me?"));
+(echo A && echo B || (echo C && (echo D && echo E && echo F)))
+exit
