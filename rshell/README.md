@@ -6,5 +6,5 @@ found that have not been fixed.
 
 hw3 update:
 we added parentheses functionality and we also added the test command, both long hand and short hand using [].
-We did not run into any issues because of the structure of our program, not bugs have been found that were not promptly fixed.
+We did not run into any issues because of the structure of our program, no bugs have been found that were not promptly fixed.
 
